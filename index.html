@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO DO list</title>
+  </head>
+  <body>
+    <form name="todoForms">
+      <table>
+        <tbody>
+          <tr>
+            <td><label>Todo: </label></td>
+            <td><input type="text" id="todo" name="todo" /></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><input type="submit" value="ADD" /></td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+    <h1>TODO LIST</h1>
+    <table>
+      <thead>
+        <tr>
+          <td><label>search : </label></td>
+          <td><input type="text" name="search" id="search" /></td>
+        </tr>
+      </thead>
+      <tbody id="isiTodo">
+        <tr>
+          <td>
+            <input type="button" name="btnDone" id="btnDone" value="done" />
+          </td>
+          <td><label>belajar tidur</label></td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>
